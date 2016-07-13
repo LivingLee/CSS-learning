@@ -1,0 +1,145 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+body{
+	font-family:Microsoft Yahei;
+	font-size:62.5%;
+}
+#wrap{
+	/*width:50%;
+	margin:0 auto;*/
+}
+#header{
+	background-color:#5fc0cd;
+	width:100%;
+	overflow:hidden;
+}
+#header img{
+	height:2.5em;
+	float:left;
+	margin:0.5em 0 0.5em 1em;
+}
+#header b{
+	display:block;
+	color:#FFF;
+	font-size:2.5em;
+	text-align:center;
+	padding:0.2em 1em 0.2em 0;
+}
+/********/
+#cover{
+	position:relative;
+}
+#cover_background{
+	width:100%;
+}
+#head_portrail{
+	position:absolute;
+	top:20%;
+	left:4.2%;
+	height:60%;
+}
+#cover .self_messages{
+	position:absolute;
+	left:35%;
+	top:30%;
+}
+#cover .self_messages span{
+	color:#fff;
+	font-size:2.5em;
+}
+#cover .self_messages span span{
+	font-size:0.8em;
+}
+#cover .self_messages p{
+	color:#FFF;
+	font-size:1.5em;
+	margin-top:0.5em;
+}
+#cover .self_messages img{
+	height:1em;
+}
+/********/
+#mid p{
+	font-size:2.5em;
+	margin:0.4em;
+	padding-left:0.4em;
+	border-left: 3px solid #5fc0cd;
+}
+#descript{
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	overflow:hidden;
+	padding-right:1em;
+	margin-bottom:6em;
+}
+#descript p{
+	font-size:2em;
+	margin-left:0.5em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+#descript p img{
+	height:1em;
+}
+#descript span{
+	padding-right:0.5em;
+	padding-left:0.5em;
+	margin-right:0.5em;
+	border-right:1px solid #CCC;
+}
+#descript table{
+	width:100%;
+	font-size:2em;
+	margin-left:0.5em;
+	border-top:1px solid #CCC;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+#descript table td{
+	padding-left:0.5em;
+}
+#descript table .head{
+	width:4.5em;
+	font-style:none;
+	color:#CCC;
+	border-right:1px solid #CCC;
+}
+#descript table .small{
+	font-size:0.8em;
+}
+#descript table .color_red{
+	color:red;
+}
+/********/
+#footer{
+	position:fixed;	
+	bottom:1em;
+	width:100%;
+}
+#footer a{
+	text-decoration:none;
+	font-size:2.5em;
+	color:#5fc0cd;
+}
+#footer p{
+	text-align:center;
+}
+#leave_message,#phone_call{
+	display:inline-block;
+	width:35%;
+	border:1px solid #5fc0cd;
+	border-radius:1em;
+	padding:0.5em;
+}
+#leave_message{
+	float:left;
+	margin-left:8%;
+}
+#phone_call{
+	float:right;
+	margin-right:8%;
+	background-color:#5fc0cd;
+}
+#phone_call a{
+	color:#FFF;
+}
