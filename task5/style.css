@@ -1,12 +1,11 @@
 @charset "utf-8";
 *{margin:0; padding:0;}
 body{
-	font-family:Microsoft Yahei;
+	font-family:"Microsoft YaHei",serif;
 	font-size:62.5%;
-}
-#wrap{
-	/*width:50%;
-	margin:0 auto;*/
+	min-width:320px;
+	max-width:800px;
+	margin:0 auto;
 }
 #header{
 	background-color:#5fc0cd;
@@ -28,20 +27,36 @@ body{
 /********/
 #cover{
 	position:relative;
-}
-#cover_background{
-	width:100%;
+	background:url(images/background.png);
+	background-size:cover;
+	display:-moz-box;
+    display:-webkit-box;
+    display:box;
+	-moz-box-align:center;
+    -webkit-box-align:center;
+    -o-box-align:center;
+    box-align:center;
 }
 #head_portrail{
-	position:absolute;
+	/*position:absolute;
 	top:20%;
-	left:4.2%;
-	height:60%;
+	left:4.2%;*/
+	width:25%;
+	margin:10%;	
+/*	-moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;*/
+}
+#head_portrail img{
+	width:100%;
 }
 #cover .self_messages{
-	position:absolute;
+	/*-moz-box-flex:2;
+    -webkit-box-flex:2;
+    box-flex:2;*/
+	/*position:absolute;
 	left:35%;
-	top:30%;
+	top:30%;*/
 }
 #cover .self_messages span{
 	color:#fff;
@@ -115,6 +130,7 @@ body{
 	position:fixed;	
 	bottom:1em;
 	width:100%;
+	max-width:800px;
 }
 #footer a{
 	text-decoration:none;
