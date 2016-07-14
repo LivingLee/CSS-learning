@@ -57,7 +57,7 @@ a{
 	min-width:320px;
 	max-width:800px;
 	width:100%;
-	top:3.5em;
+	top:4em;
 	background-color:#FFF;
 }
 
@@ -100,7 +100,7 @@ a{
 	margin:0.4em;
 }
 #main .results{
-	margin-top:7em;
+	margin-top:7.5em;
 }
 #main .results div{
 	color:#999;
