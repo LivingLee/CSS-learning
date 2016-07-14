@@ -129,7 +129,7 @@ a{
 	margin-bottom:5em;
 }
 /******************尾部******************/
-#footer{
+/*#footer{
 	position:fixed;
 	bottom:0;
 	width:100%;
@@ -163,5 +163,45 @@ a{
 	margin:0;
 }
 #footer .Li2 img{
+	padding-top:1em;
+}*/
+#footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	max-width:800px;
+	background-color:#F0F0F0;
+}
+#footer ul{
+	display:-moz-box;
+    display:-webkit-box;
+    display:box;
+	-moz-box-align:center;
+	-webkit-box-align:center;
+	-o-box-align:center;
+}
+#footer li{
+	list-style:none;
+	width:33%;
+	text-align:center;
+}
+#footer li img{
+	height:2.5em;
+}
+#footer .Li1 p{
+	color:#5fc0cd;
+}
+#footer .Li3 p{
+	color:#999;
+}
+#footer .Li2 a{
+	background-color:#5fc0cd;
+	display:block;
+	margin:0 auto;
+	width:4.6em;
+	height:4.6em;
+	border-radius:2.3em;
+}
+#footer .Li2 a img{
 	padding-top:1em;
 }
