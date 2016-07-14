@@ -176,6 +176,7 @@ a{
 	display:-moz-box;
     display:-webkit-box;
     display:box;
+	display:-ms-flexbox;
 	-moz-box-align:center;
 	-webkit-box-align:center;
 	-o-box-align:center;
