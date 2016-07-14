@@ -5,20 +5,23 @@ body{
 	max-width:800px;
 	margin:0 auto;
 	font-size:62.5%;
-	overflow:hidden;
+	
 }
 #wrap{
 	position:relative;
+	overflow:hidden;
 }
 a{
 	text-decoration:none;
 }
-/*头部*/
+/******************头部******************/
 #header{
 	width:100%;
 	background-color:#5fc0cd;
-	position:relative;
+	position:fixed;
 	padding:0.5em 0 0.5em 0;
+	min-width:320px;
+	max-width:800px;
 /*	position:absolute;
 	top:0;*/
 }
@@ -48,10 +51,37 @@ a{
 	right:1em;
 	height:2em;
 }
-/*主体部分*/
+/****************主体部分*********************/
+#main .options{
+	position:fixed;
+	min-width:320px;
+	max-width:800px;
+	width:100%;
+	top:3.5em;
+	background-color:#FFF;
+}
+
+/*
+#main .options form{
+	border-bottom:0.1em solid #999;
+	padding:0.5em 0 0.5em 0;
+}
+#main .options form select{
+	display:inline-block;
+	width:25%;
+	color:#999;
+	border:none;
+	border-right:0.1em solid #999;
+	margin-left:7%;
+}
+#main .options form select:hover{
+	display:block;
+}
+*/
 #main .options ul{
 	list-style:none;
 	border-bottom:0.1em solid #CCC;
+	color:#999;
 }
 #main .options ul li{
 	display:inline-block;
@@ -64,15 +94,14 @@ a{
 #main .options ul .border_none{
 	border-right:none;
 }
-#main .options ul li a{
-	color:#999;
-}
 #main .options ul li img{
 	float:right;
 	width:0.8em;
 	margin:0.4em;
 }
-
+#main .results{
+	margin-top:7em;
+}
 #main .results div{
 	color:#999;
 	font-size:1.5em;
@@ -96,7 +125,10 @@ a{
 #main .results div p span span img{
 	margin:0 0.5em;
 }
-/*尾部*/
+#main{
+	margin-bottom:5em;
+}
+/******************尾部******************/
 #footer{
 	position:fixed;
 	bottom:0;
